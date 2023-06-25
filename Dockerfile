@@ -1,3 +1,6 @@
+# This docker image can be downloaded from
+# https://hub.docker.com/repository/docker/litcoderr/base/general
+
 FROM nvcr.io/nvidia/pytorch:23.04-py3
 
 RUN pip install --upgrade pip
