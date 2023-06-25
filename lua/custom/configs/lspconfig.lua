@@ -7,6 +7,11 @@ local util = require("lspconfig/util")
 lspconfig.pyright.setup({
   on_attach = on_attach,
   capabilities = capabilities,
+  settings = {
+    python = {
+      pythonPath = "/opt/homebrew/Caskroom/miniforge/base/bin/python"
+    }
+  }
 })
 
 lspconfig.gopls.setup {
