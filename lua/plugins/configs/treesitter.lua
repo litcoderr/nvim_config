@@ -6,7 +6,7 @@ local options = {
     use_languagetree = true,
   },
 
-  indent = { enable = false },
+  indent = { enable = true },
 }
 
 return options
