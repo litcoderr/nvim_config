@@ -23,3 +23,5 @@ require "plugins"
 -- custom options
 vim.wo.relativenumber = true
 vim.api.nvim_exec('language en_US.UTF-8', true)
+
+vim.api.nvim_set_option("clipboard","unnamed")
